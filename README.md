@@ -9,7 +9,7 @@
     I bridge the gap between hardware and software using <b>STM32, ESP32, and Arduino</b> architectures.
   </p>
 
-  <a href="https://linkedin.com/in/abhishek-cm">
+  <a href="https://www.linkedin.com/in/abhishek-c-m-41871226a">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:abhicm14@gmail.com">
