@@ -109,7 +109,7 @@
 
   <!-- ================= GRID ROW 2 ================= -->
   <!-- Card 3: FreeRTOS Workspace (Mid-Left) -->
-  <a href="https://github.com/Abhicm14/RTOS_ESP32" target="_blank" class="card-hover">
+  <a href="https://github.com/Abhicm14/ESP32" target="_blank" class="card-hover">
     <g transform="translate(40, 290)">
       <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
       <g transform="translate(22, 28)">
