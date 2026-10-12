@@ -96,3 +96,4 @@ Begin by presenting Step 1 (the questions) to the user.
 * **Live Hardware Motion**: Digital square waves, logic analyzer samples, and traveling signal packet animations (`<animateMotion>`).
 * **Multi-Bus Telemetry**: Displays distinct hardware protocols (UART, SPI, I2C, CAN) with authentic baud rates and signal pins.
 * **Retina Crisp**: All assets use scalable `viewBox` coordinates for crisp rendering across 1080p, 4K, and mobile screens.
+
