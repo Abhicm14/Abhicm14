@@ -69,7 +69,6 @@ Passions: Industrial IoT, Low-Power Mesh Systems, Real-Time Systems, Hardware Br
   <img src="https://img.shields.io/badge/ESP8266-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP8266" />
   <img src="https://img.shields.io/badge/Raspberry_Pi_4-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-  <img src="https://img.shields.io/badge/8051_Microcontroller-555555?style=for-the-badge&logoColor=white" alt="8051" />
 </p>
 
 #### 📡 Communication Protocols & Interfaces
@@ -87,11 +86,9 @@ Passions: Industrial IoT, Low-Power Mesh Systems, Real-Time Systems, Hardware Br
   <img src="https://img.shields.io/badge/FreeRTOS-32CD32?style=for-the-badge&logoColor=white" alt="FreeRTOS" />
   <img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP-IDF" />
   <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32CubeIDE" />
-  <img src="https://img.shields.io/badge/PlatformIO-F68212?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
 </div>
@@ -122,7 +119,7 @@ Passions: Industrial IoT, Low-Power Mesh Systems, Real-Time Systems, Hardware Br
 
 | Project | Highlights & Tech Stack |
 |---|---|
-| **🏭 [ANDON Industrial Monitoring System](https://github.com/Abhicm14)** | Real-time industrial machine status monitoring system. Implemented GPIO interrupt event capture on **ESP32**, noise-tolerant **RS485 / MAX485** physical bus, and **Raspberry Pi 4** edge gateway with **PostgreSQL** logging and **Python** analytics. |
+| **🏭 [ANDON Industrial Monitoring System](https://github.com/Abhicm14)** | Real-time industrial machine status monitoring system. Implemented GPIO interrupt event capture on **ESP32**, noise-tolerant **RS485 / MAX485** physical bus, and **Raspberry Pi 4** edge gateway with telemetry logging and **Python** analytics. |
 | **📶 [Wi-Fi Network Selector & Scanner](https://github.com/Abhicm14/STM32-Project)** | Inter-MCU embedded system bridging **STM32F407** and **ESP32** over bidirectional UART. Features a responsive 3-button scrolling menu on an I2C **SSD1306 OLED** with non-blocking firmware state machines. |
 | **📡 [Multi-Node Low-Power IoT Gateway](https://github.com/Abhicm14)** | Star-topology IoT gateway using **ESP-NOW** wireless protocol. Features STM32 sensor nodes with GPIO wake-up from deep sleep modes and an ESP32 hub relaying telemetry to the Blynk IoT Cloud. |
 | **⚙️ [Industrial Plant Management System](https://github.com/Abhicm14/C_Programming)** | Modular console architecture in C modeling hierarchical industrial plants with dynamic linked lists. Demonstrates dynamic heap allocation (`malloc`/`free`), pointer manipulation, and CRUD transaction engines. |
