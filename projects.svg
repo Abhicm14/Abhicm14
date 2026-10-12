@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 690" width="1280" height="690">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="projBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1219" />
+      <stop offset="50%" stop-color="#0d171e" />
+      <stop offset="100%" stop-color="#091017" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#56d364" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11161d" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .card-title { font-weight: 700; font-size: 15.5px; fill: #e6edf3; }
+      .card-tag { font-weight: 600; font-size: 10.5px; letter-spacing: 1.2px; }
+      .card-desc { font-weight: 400; font-size: 12.5px; fill: #8b949e; }
+      .pill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 500; font-size: 11px; fill: #c9d1d9; }
+      .card-hover { transition: stroke 0.2s ease; cursor: pointer; }
+      .card-hover:hover rect.card-frame { stroke: #56d364; }
+    </style>
+  </defs>
+
+  <!-- Frame Base -->
+  <rect x="2" y="2" width="1276" height="686" rx="16" fill="url(#projBg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Section Header -->
+  <g transform="translate(640, 42)" text-anchor="middle">
+    <text y="0" fill="#8b949e" class="mono" font-size="12.5" font-weight="600" letter-spacing="3">// SELECTED SYSTEMS &amp; SILICON BUILDS</text>
+    <text y="28" fill="#e6edf3" class="sans" font-size="24" font-weight="800" letter-spacing="0.5">FEATURED ENGINEERING PROJECTS ⚡</text>
+  </g>
+
+  <!-- ================= GRID ROW 1 ================= -->
+  <!-- Card 1: ANDON (Top-Left) -->
+  <a href="https://github.com/Abhicm14" target="_blank" class="card-hover">
+    <g transform="translate(40, 95)">
+      <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
+      <g transform="translate(22, 28)">
+        <text x="0" y="0" fill="#56d364" class="mono card-tag">RS485 FIELD TELEMETRY</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">🏭 ACTIVE DEPLOYMENT</text>
+        <text x="0" y="26" class="sans card-title">ANDON Industrial Monitoring System</text>
+        <text x="0" y="50" class="sans card-desc">Machine-event interrupt capture, noise-tolerant RS485 fieldbus transmission,</text>
+        <text x="0" y="70" class="sans card-desc">and Raspberry Pi 4 edge gateway data logging with Python analytics.</text>
+        
+        <!-- Badges -->
+        <g transform="translate(0, 92)">
+          <rect x="0" y="0" width="70" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="35" y="16" class="pill-text" text-anchor="middle">ESP32</text>
+
+          <rect x="78" y="0" width="75" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="115.5" y="16" class="pill-text" text-anchor="middle">RS485 Bus</text>
+
+          <rect x="161" y="0" width="115" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="218.5" y="16" class="pill-text" text-anchor="middle">Raspberry Pi 4</text>
+
+          <rect x="284" y="0" width="75" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="321.5" y="16" class="pill-text" text-anchor="middle">Python</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- Card 2: Wi-Fi Scanner (Top-Right) -->
+  <a href="https://github.com/Abhicm14/STM32-Project" target="_blank" class="card-hover">
+    <g transform="translate(655, 95)">
+      <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
+      <g transform="translate(22, 28)">
+        <text x="0" y="0" fill="#58d7ff" class="mono card-tag">INTER-MCU UART PIPELINE</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚡ HARDWARE DEMO</text>
+        <text x="0" y="26" class="sans card-title">Wi-Fi Scanner &amp; Network Selector</text>
+        <text x="0" y="50" class="sans card-desc">Non-blocking UART pipeline bridging STM32F407 &amp; ESP32 with responsive</text>
+        <text x="0" y="70" class="sans card-desc">3-button scrolling UI on I²C SSD1306 OLED and firmware state machines.</text>
+        
+        <!-- Badges -->
+        <g transform="translate(0, 92)">
+          <rect x="0" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="47.5" y="16" class="pill-text" text-anchor="middle">STM32F407</text>
+
+          <rect x="103" y="0" width="70" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="138" y="16" class="pill-text" text-anchor="middle">ESP32</text>
+
+          <rect x="181" y="0" width="60" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="211" y="16" class="pill-text" text-anchor="middle">UART</text>
+
+          <rect x="249" y="0" width="55" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="276.5" y="16" class="pill-text" text-anchor="middle">I²C</text>
+
+          <rect x="312" y="0" width="65" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="344.5" y="16" class="pill-text" text-anchor="middle">OLED</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- ================= GRID ROW 2 ================= -->
+  <!-- Card 3: FreeRTOS Workspace (Mid-Left) -->
+  <a href="https://github.com/Abhicm14/RTOS_ESP32" target="_blank" class="card-hover">
+    <g transform="translate(40, 290)">
+      <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
+      <g transform="translate(22, 28)">
+        <text x="0" y="0" fill="#56d364" class="mono card-tag">DETERMINISTIC MULTITASKING</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ RTOS CORE</text>
+        <text x="0" y="26" class="sans card-title">FreeRTOS ESP32 Task Architecture</text>
+        <text x="0" y="50" class="sans card-desc">Deterministic real-time multitasking: thread-safe Queues, Binary/Counting</text>
+        <text x="0" y="70" class="sans card-desc">Semaphores, Mutexes, Event Groups, and Software Timers on ESP-IDF.</text>
+        
+        <!-- Badges -->
+        <g transform="translate(0, 92)">
+          <rect x="0" y="0" width="70" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="35" y="16" class="pill-text" text-anchor="middle">ESP32</text>
+
+          <rect x="78" y="0" width="85" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="120.5" y="16" class="pill-text" text-anchor="middle">FreeRTOS</text>
+
+          <rect x="171" y="0" width="75" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="208.5" y="16" class="pill-text" text-anchor="middle">ESP-IDF</text>
+
+          <rect x="254" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="301.5" y="16" class="pill-text" text-anchor="middle">Embedded C</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- Card 4: Roadmap (Mid-Right) - AI assistance & contribution welcome -->
+  <a href="https://github.com/Abhicm14/embedded-engineering-roadmap" target="_blank" class="card-hover">
+    <g transform="translate(655, 290)">
+      <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
+      <g transform="translate(22, 28)">
+        <text x="0" y="0" fill="#58d7ff" class="mono card-tag">OPEN-SOURCE EDUCATION</text>
+        <text x="540" y="0" fill="#56d364" class="mono card-tag" text-anchor="end">🤝 CONTRIBUTIONS WELCOME</text>
+        <text x="0" y="26" class="sans card-title">Embedded Engineering Roadmap</text>
+        <text x="0" y="50" class="sans card-desc">Built with AI assistance as a personal learning habit to help learners.</text>
+        <text x="0" y="70" class="sans card-desc">Contributions welcome! Open for community pull requests to grow this repo.</text>
+        
+        <!-- Badges -->
+        <g transform="translate(0, 92)">
+          <rect x="0" y="0" width="85" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="42.5" y="16" class="pill-text" text-anchor="middle">Curriculum</text>
+
+          <rect x="93" y="0" width="80" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="133" y="16" class="pill-text" text-anchor="middle">Docsify</text>
+
+          <rect x="181" y="0" width="80" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="221" y="16" class="pill-text" text-anchor="middle">Markdown</text>
+
+          <rect x="269" y="0" width="130" height="24" rx="5" fill="url(#pillBg)" stroke="#315b4a" stroke-width="1" />
+          <text x="334" y="16" class="pill-text" text-anchor="middle" fill="#56d364">🤝 Help Grow Repo</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- ================= GRID ROW 3 ================= -->
+  <!-- Card 5: Industrial Plant Manager (Bottom-Left) -->
+  <a href="https://github.com/Abhicm14/C_Programming" target="_blank" class="card-hover">
+    <g transform="translate(40, 485)">
+      <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
+      <g transform="translate(22, 28)">
+        <text x="0" y="0" fill="#56d364" class="mono card-tag">DYNAMIC DATA STRUCTURES</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ C MEMORY MODEL</text>
+        <text x="0" y="26" class="sans card-title">Industrial Plant Management Engine</text>
+        <text x="0" y="50" class="sans card-desc">Modular machine node tracking in Embedded C using defensive dynamic</text>
+        <text x="0" y="70" class="sans card-desc">linked lists, heap safety, and pointer manipulation architectures.</text>
+        
+        <!-- Badges -->
+        <g transform="translate(0, 92)">
+          <rect x="0" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="47.5" y="16" class="pill-text" text-anchor="middle">Embedded C</text>
+
+          <rect x="103" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="150.5" y="16" class="pill-text" text-anchor="middle">Linked Lists</text>
+
+          <rect x="206" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="253.5" y="16" class="pill-text" text-anchor="middle">Heap Safety</text>
+
+          <rect x="309" y="0" width="70" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="344" y="16" class="pill-text" text-anchor="middle">Pointers</text>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- Card 6: Springer Nature Publication (Bottom-Right) -->
+  <a href="https://doi.org/10.1007/978-981-97-8861-3_15" target="_blank" class="card-hover">
+    <g transform="translate(655, 485)">
+      <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
+      <g transform="translate(22, 28)">
+        <text x="0" y="0" fill="#58d7ff" class="mono card-tag">SPRINGER NATURE RESEARCH</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">📖 ICMISC 2024</text>
+        <text x="0" y="26" class="sans card-title">ASR Voice Elevator Control System</text>
+        <text x="0" y="50" class="sans card-desc">Contactless speech-driven elevator floor selector with acoustic feature</text>
+        <text x="0" y="70" class="sans card-desc">extraction and real-time command processing. Formally published paper.</text>
+        
+        <!-- Badges -->
+        <g transform="translate(0, 92)">
+          <rect x="0" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="47.5" y="16" class="pill-text" text-anchor="middle">Arduino Nano</text>
+
+          <rect x="103" y="0" width="130" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="168" y="16" class="pill-text" text-anchor="middle">Voice Recognition</text>
+
+          <rect x="241" y="0" width="65" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="273.5" y="16" class="pill-text" text-anchor="middle">ICMISC</text>
+
+          <rect x="314" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="361.5" y="16" class="pill-text" text-anchor="middle">DOI Indexed</text>
+        </g>
+      </g>
+    </g>
+  </a>
+</svg>
+

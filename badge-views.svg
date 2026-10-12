@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 46" width="220" height="46">
+  <defs>
+    <!-- Background Gradient Matching LinkedIn Style -->
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141a22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Border Gradient with Emerald Accent -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#56d364" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+      .telemetry-pulse {
+        transform-origin: 16px 16px;
+        animation: pulseDot 2s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Button Base Frame -->
+  <rect x="1" y="1" width="218" height="44" rx="8" fill="url(#badgeBg)" stroke="url(#borderGrad)" stroke-width="1.2" />
+
+  <!-- Corner Cyber Ticks Matching LinkedIn Style -->
+  <path d="M 208 5 L 214 5 L 214 11" fill="none" stroke="#56d364" stroke-width="1.2" />
+
+  <!-- Left Icon Container -->
+  <rect x="8" y="7" width="32" height="32" rx="6" fill="#111f18" stroke="#254535" stroke-width="1" />
+  
+  <!-- Telemetry Radar & Signal Eye Vector Icon -->
+  <g transform="translate(15, 14)">
+    <!-- Eye Contour -->
+    <path d="M 0 9 C 3 4, 15 4, 18 9 C 15 14, 3 14, 0 9 Z" fill="none" stroke="#56d364" stroke-width="1.3" />
+    <!-- Center Pupil / Radar Target -->
+    <circle cx="9" cy="9" r="3.2" fill="#56d364" class="telemetry-pulse" />
+    <circle cx="9" cy="9" r="6" fill="none" stroke="#56d364" stroke-width="0.7" opacity="0.5" stroke-dasharray="2,2" />
+  </g>
+
+  <!-- Right Typography Matching LinkedIn Style -->
+  <text x="48" y="20" fill="#8b949e" class="mono" font-size="8.5" font-weight="600" letter-spacing="0.8">TELEMETRY // VISITOR NODE</text>
+  <text x="48" y="35" fill="#e6edf3" class="sans" font-size="13" font-weight="700">PROFILE VIEWS <tspan fill="#56d364">●</tspan></text>
+</svg>
+
