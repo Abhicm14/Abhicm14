@@ -21,7 +21,7 @@
 <br/>
 
 <!-- 🧩 SELECTED SYSTEMS & FEATURED BUILDS -->
-<img src="./projects.svg?v=5" alt="Featured Engineering Projects" width="100%"/>
+<img src="./projects.svg?v=6" alt="Featured Engineering Projects" width="100%"/>
 
 <br/>
 

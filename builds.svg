@@ -114,8 +114,8 @@
       <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
       <g transform="translate(22, 28)">
         <text x="0" y="0" fill="#56d364" class="mono card-tag">DETERMINISTIC MULTITASKING</text>
-        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ RTOS CORE</text>
-        <text x="0" y="26" class="sans card-title">FreeRTOS ESP32 Task Architecture</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ REPO: ESP32</text>
+        <text x="0" y="26" class="sans card-title">ESP32 — FreeRTOS Firmware Architecture</text>
         <text x="0" y="50" class="sans card-desc">Deterministic real-time multitasking: thread-safe Queues, Binary/Counting</text>
         <text x="0" y="70" class="sans card-desc">Semaphores, Mutexes, Event Groups, and Software Timers on ESP-IDF.</text>
         
