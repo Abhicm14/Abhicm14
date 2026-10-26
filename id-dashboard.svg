@@ -147,16 +147,16 @@
       <text x="640" y="40" font-size="14" text-anchor="middle">📖</text>
     </g>
 
-    <!-- Dashboard Box 4: Open Source Education -->
+    <!-- Dashboard Box 4: Systems & Automation Workspaces -->
     <g transform="translate(0, 372)">
       <rect width="680" height="110" rx="12" fill="url(#boxBg)" stroke="#30363d" stroke-width="1.2" />
-      <text x="25" y="30" fill="#58d7ff" class="mono" font-size="11.5" font-weight="700" letter-spacing="1">OPEN-SOURCE EDUCATION (ROADMAP)</text>
-      <text x="25" y="58" fill="#e6edf3" class="sans" font-size="17" font-weight="700">Embedded Engineering Roadmap</text>
+      <text x="25" y="30" fill="#58d7ff" class="mono" font-size="11.5" font-weight="700" letter-spacing="1">SYSTEMS WORKSPACES &amp; AUTOMATION</text>
+      <text x="25" y="58" fill="#e6edf3" class="sans" font-size="17" font-weight="700">Modern C++ &amp; Python Automation Suites</text>
       <text x="25" y="82" fill="#8b949e" class="sans" font-size="12.5">
-        AI-assisted learning habit to help learners master firmware. Contributions welcome to grow this repo!
+        Modular firmware architectures, RAII memory models, and automated shell testing pipelines.
       </text>
       <circle cx="640" cy="35" r="14" fill="#13212b" stroke="#254659" stroke-width="1" />
-      <text x="640" y="40" font-size="14" text-anchor="middle">🚀</text>
+      <text x="640" y="40" font-size="14" text-anchor="middle">⚡</text>
     </g>
   </g>
 </svg>

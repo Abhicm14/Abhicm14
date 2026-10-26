@@ -159,7 +159,7 @@
         <g transform="translate(0, 34)">
           <text x="0" y="0" class="log-line log-ok">[✓]</text>
           <text x="22" y="0" class="log-line log-label">2026-10 :</text>
-          <text x="88" y="0" class="log-line log-desc">embedded-engineering-roadmap actively maintained</text>
+          <text x="88" y="0" class="log-line log-desc">C &amp; C++ systems workspaces actively maintained</text>
 
           <text x="0" y="24" class="log-line log-arrow">[→]</text>
           <text x="22" y="24" class="log-line log-label">ROLE    :</text>

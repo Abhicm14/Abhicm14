@@ -6,7 +6,7 @@
 <br/>
 
 <!-- ⚡ WHAT I BUILD  •  🔬 BEYOND THE LOGIC ANALYZER -->
-<img src="./about-life.svg?v=3" alt="What I build & life beyond the logic analyzer" width="100%"/>
+<img src="./about-life.svg?v=4" alt="What I build & life beyond the logic analyzer" width="100%"/>
 
 <br/>
 
@@ -16,17 +16,17 @@
 <br/>
 
 <!-- 🪪 DEVELOPER ID + HARDWARE TELEMETRY DASHBOARD -->
-<img src="./id-dashboard.svg?v=3" alt="Hardware Engineer ID and telemetry dashboard" width="100%"/>
+<img src="./id-dashboard.svg?v=4" alt="Hardware Engineer ID and telemetry dashboard" width="100%"/>
 
 <br/>
 
 <!-- 🧩 SELECTED SYSTEMS & FEATURED BUILDS -->
-<img src="./projects.svg?v=6" alt="Featured Engineering Projects" width="100%"/>
+<img src="./projects.svg?v=7" alt="Featured Engineering Projects" width="100%"/>
 
 <br/>
 
 <!-- 📡 LIVING ENGINEERING SIGNALS & ACTIVITY -->
-<img src="./signals.svg?v=3" alt="Living Engineering Signals" width="100%"/>
+<img src="./signals.svg?v=4" alt="Living Engineering Signals" width="100%"/>
 
 <!--
 ========================================================================

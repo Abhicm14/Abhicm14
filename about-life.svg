@@ -120,12 +120,12 @@
         <text x="45" y="38" class="sans item-desc">scripts, register errata, and physical board schematic layouts.</text>
       </g>
 
-      <!-- Item 4: Open-Source Curriculum moved to last, with AI & contribution mention -->
+      <!-- Item 4: Systems Programming & Tooling Automation -->
       <g transform="translate(0, 300)">
         <text x="0" y="0" fill="#56d364" class="mono item-num">[04]</text>
-        <text x="45" y="0" class="sans item-title">Open-Source Embedded Curriculum (Roadmap)</text>
-        <text x="45" y="20" class="sans item-desc">Developed as a personal learning habit with AI assistance to help aspiring</text>
-        <text x="45" y="38" class="sans item-desc">learners master firmware. <tspan fill="#56d364" font-weight="500">Contributions welcome to help grow this repo!</tspan></text>
+        <text x="45" y="0" class="sans item-title">Systems Programming &amp; Tooling Automation</text>
+        <text x="45" y="20" class="sans item-desc">Building hands-on codebases across C, modern C++, Python, and Linux Bash to</text>
+        <text x="45" y="38" class="sans item-desc">master memory models, data structures, and automated firmware test pipelines.</text>
       </g>
     </g>
   </g>

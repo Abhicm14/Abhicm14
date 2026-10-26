@@ -108,59 +108,59 @@
   </a>
 
   <!-- ================= GRID ROW 2 ================= -->
-  <!-- Card 3: FreeRTOS Workspace (Mid-Left) -->
-  <a href="https://github.com/Abhicm14/ESP32" target="_blank" class="card-hover">
+  <!-- Card 3: Modern C++ Workspace (Mid-Left) -->
+  <a href="https://github.com/Abhicm14/CPP_Programming" target="_blank" class="card-hover">
     <g transform="translate(40, 290)">
       <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
       <g transform="translate(22, 28)">
-        <text x="0" y="0" fill="#56d364" class="mono card-tag">DETERMINISTIC MULTITASKING</text>
-        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ REPO: ESP32</text>
-        <text x="0" y="26" class="sans card-title">ESP32 — FreeRTOS Firmware Architecture</text>
-        <text x="0" y="50" class="sans card-desc">Deterministic real-time multitasking: thread-safe Queues, Binary/Counting</text>
-        <text x="0" y="70" class="sans card-desc">Semaphores, Mutexes, Event Groups, and Software Timers on ESP-IDF.</text>
+        <text x="0" y="0" fill="#56d364" class="mono card-tag">MODERN C++ &amp; ARCHITECTURE</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ REPO: CPP_Programming</text>
+        <text x="0" y="26" class="sans card-title">C++ Programming Workspace &amp; OOP Design</text>
+        <text x="0" y="50" class="sans card-desc">Structured modern C++ repository: Object-Oriented Design, RAII memory</text>
+        <text x="0" y="70" class="sans card-desc">management, template metaprogramming, and embedded software idioms.</text>
         
         <!-- Badges -->
         <g transform="translate(0, 92)">
-          <rect x="0" y="0" width="70" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="35" y="16" class="pill-text" text-anchor="middle">ESP32</text>
+          <rect x="0" y="0" width="75" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="37.5" y="16" class="pill-text" text-anchor="middle">C++17/20</text>
 
-          <rect x="78" y="0" width="85" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="120.5" y="16" class="pill-text" text-anchor="middle">FreeRTOS</text>
+          <rect x="83" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="130.5" y="16" class="pill-text" text-anchor="middle">OOP &amp; RAII</text>
 
-          <rect x="171" y="0" width="75" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="208.5" y="16" class="pill-text" text-anchor="middle">ESP-IDF</text>
+          <rect x="186" y="0" width="85" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="228.5" y="16" class="pill-text" text-anchor="middle">Templates</text>
 
-          <rect x="254" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="301.5" y="16" class="pill-text" text-anchor="middle">Embedded C</text>
+          <rect x="279" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="326.5" y="16" class="pill-text" text-anchor="middle">STL Patterns</text>
         </g>
       </g>
     </g>
   </a>
 
-  <!-- Card 4: Roadmap (Mid-Right) - AI assistance & contribution welcome -->
-  <a href="https://github.com/Abhicm14/embedded-engineering-roadmap" target="_blank" class="card-hover">
+  <!-- Card 4: Python & Linux Automation (Mid-Right) -->
+  <a href="https://github.com/Abhicm14/Python_Programming" target="_blank" class="card-hover">
     <g transform="translate(655, 290)">
       <rect width="585" height="175" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2" class="card-frame" />
       <g transform="translate(22, 28)">
-        <text x="0" y="0" fill="#58d7ff" class="mono card-tag">OPEN-SOURCE EDUCATION</text>
-        <text x="540" y="0" fill="#56d364" class="mono card-tag" text-anchor="end">🤝 CONTRIBUTIONS WELCOME</text>
-        <text x="0" y="26" class="sans card-title">Embedded Engineering Roadmap</text>
-        <text x="0" y="50" class="sans card-desc">Built with AI assistance as a personal learning habit to help learners.</text>
-        <text x="0" y="70" class="sans card-desc">Contributions welcome! Open for community pull requests to grow this repo.</text>
+        <text x="0" y="0" fill="#58d7ff" class="mono card-tag">AUTOMATION &amp; SYSTEMS TOOLING</text>
+        <text x="540" y="0" fill="#8b949e" class="mono card-tag" text-anchor="end">⚙️ REPO: Python_Programming</text>
+        <text x="0" y="26" class="sans card-title">Python 3 Systems &amp; Automation Suite</text>
+        <text x="0" y="50" class="sans card-desc">Structured 21-day practical Python 3 suite covering systems scripting,</text>
+        <text x="0" y="70" class="sans card-desc">functional programming paradigms, OOP architecture, and automated test tools.</text>
         
         <!-- Badges -->
         <g transform="translate(0, 92)">
-          <rect x="0" y="0" width="85" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="42.5" y="16" class="pill-text" text-anchor="middle">Curriculum</text>
+          <rect x="0" y="0" width="80" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="40" y="16" class="pill-text" text-anchor="middle">Python 3</text>
 
-          <rect x="93" y="0" width="80" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="133" y="16" class="pill-text" text-anchor="middle">Docsify</text>
+          <rect x="88" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="135.5" y="16" class="pill-text" text-anchor="middle">OOP Design</text>
 
-          <rect x="181" y="0" width="80" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
-          <text x="221" y="16" class="pill-text" text-anchor="middle">Markdown</text>
+          <rect x="191" y="0" width="95" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="238.5" y="16" class="pill-text" text-anchor="middle">Automation</text>
 
-          <rect x="269" y="0" width="130" height="24" rx="5" fill="url(#pillBg)" stroke="#315b4a" stroke-width="1" />
-          <text x="334" y="16" class="pill-text" text-anchor="middle" fill="#56d364">🤝 Help Grow Repo</text>
+          <rect x="294" y="0" width="90" height="24" rx="5" fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+          <text x="339" y="16" class="pill-text" text-anchor="middle">Linux Shell</text>
         </g>
       </g>
     </g>
