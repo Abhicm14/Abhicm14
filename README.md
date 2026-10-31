@@ -34,7 +34,7 @@ Firmware and embedded systems engineer focused on microcontroller-based system d
 - **Core Languages:** Embedded C (C99 / C11), C++ (C++14 / C++17), Python 3, Bash / POSIX Shell
 - **Hardware Targets:** STM32 (ARM Cortex-M4 / STM32F4 series), ESP32 (Xtensa Dual-Core), Arduino / AVR
 - **Toolchains & IDEs:** STM32CubeIDE, Arduino IDE, GCC / GDB, VS Code
-- **Instruments & Debugging:** Logic Analyzers, Oscilloscopes, Serial Console / UART Debugging, ST-LINK
+- **Instruments & Debugging:** Serial Console / UART Debugging, ST-LINK
 
 ---
 
