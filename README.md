@@ -50,7 +50,7 @@ Firmware and embedded systems engineer focused on microcontroller-based system d
 
 | Project | Target Platform & Stack | Description | Status |
 | :--- | :--- | :--- | :---: |
-| **[STM32-ESP32 WiFi Selector](https://github.com/Abhicm14/STM32-Project)** | STM32F407 (ARM Cortex-M4), ESP32, UART, I2C, Embedded C | Dual-MCU system for real-time 2.4 GHz Wi-Fi scanning and connection. SSD1306 OLED graphical menu driven by STM32 via I2C, 3-button hardware navigation, structured inter-MCU UART packet streaming. | `Completed` |
+| **[STM32-ESP32 WiFi Selector](https://github.com/Abhicm14/STM32-HAL-Projects/tree/main/04-Complete-Projects/STM32_ESP32_WiFi_Network_Selector)** | STM32F407 (ARM Cortex-M4), ESP32, UART, I2C, Embedded C | Dual-MCU system for real-time 2.4 GHz Wi-Fi scanning and connection. SSD1306 OLED graphical menu driven by STM32 via I2C, 3-button hardware navigation, structured inter-MCU UART packet streaming. | `Completed` |
 | **[STM32 HAL Peripheral Projects](https://github.com/Abhicm14/STM32-HAL-Projects)** | STM32F407 (ARM Cortex-M4), HAL, I2C, GPIO, Timers | Collection of sensor and display driver projects: OLED/LCD interfacing via I2C, DHT11 temperature/humidity sensing, HC-SR04 ultrasonic distance measurement, hardware timer configuration, and an IR-based visitor counting system. | `Completed` |
 
 ---
